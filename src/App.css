@@ -1,0 +1,64 @@
+/* Center-align the entire app */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Change font */
+  background-color: #f4f4f9; /* Light background color */
+}
+
+/* App logo styling */
+.App-logo {
+  height: 20vmin; /* Reduced size of the logo */
+  pointer-events: none;
+  border-radius: 50%; /* Circular logo */
+  margin-bottom: 20px; /* Space below logo */
+  transition: transform 0.3s ease-in-out; /* Smooth transform on hover */
+}
+
+/* Add hover effect on logo */
+.App-logo:hover {
+  transform: scale(1.1); /* Enlarge logo on hover */
+}
+
+/* Animation for App logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+/* Header styling */
+.App-header {
+  background-color: #2d3a4f; /* Darker background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: #f0f0f0; /* Lighter text color */
+  padding: 20px; /* Add padding around the header */
+}
+
+/* Links styling */
+.App-link {
+  color: #3e91f7; /* Different color for the link */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make link text bold */
+  margin-top: 20px; /* Space above the link */
+  transition: color 0.2s ease; /* Smooth color change */
+}
+
+/* Hover effect on the link */
+.App-link:hover {
+  color: #61dafb; /* Lighter color when hovered */
+}
+
+/* Keyframes for rotating logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
